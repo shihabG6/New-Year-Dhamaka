@@ -259,6 +259,9 @@
 
 /* holidays related styles */
 
+.holidays-offer{
+  margin-bottom: 54px;
+}
 .holidays-offer .text{
   text-align: center;
 }
@@ -281,6 +284,153 @@
   margin-bottom: 64px;
 }
 .discount-bannar{
+  position: relative;
+  width: 1056px;
+  height: 502px;
+  margin: 0 auto;
+}
+.discount-bannar .box{
+  width: 597px;
+  position: absolute;
+  z-index: 100;
+  padding-top: 300px;
+}
+.box-logo-pic{
+  width: 1056px;
+  margin: none;
+}
+.discount-bannar .logo{
+  width: 154px;
+  position: absolute;
+  z-index: 100;
+  right: 245px;
+  bottom: 240px;
+
+}
+.discount-bannar .pic{
+  width: 321px;
+  position: absolute;
+ 
+  right: 0;
+  bottom: 180px;
+}
+.discount-bannar img{
+  width: 1056px;
+  position: absolute;
+  bottom: 0;
+}
+
+
+/* Product */
+
+
+.product{
   width: 1056px;
   margin: 0 auto;
+}
+
+.product h4{
+  font-size: 20px;
+  font-weight: 500;
+  color: #FF0000;
+  margin-bottom: 12px
+}
+.product h2{
+  font-size: 40px;
+  width: 900;
+  color: #000000;
+  margin-bottom: 22px;
+}
+.product p{
+  font-size: 20px;
+  color: #07021199;
+  margin-bottom: 42px;
+}
+
+
+.coproduct-colum-1{
+  width: 1056px;
+  height: 450px;
+  border: 2px solid;
+}
+
+
+.product-colum-1 {
+  margin: 0 auto;
+  width: 1056px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.product-colum-1 .box{
+  width: 338px;
+}
+.product-colum-1 .box img{
+  width: 100%;
+}
+
+.product-colum-2 {
+  bottom: 100px;
+  margin: 0 auto;
+  width: 1056px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-colum-2 .box{
+  width: 340px;
+}
+.product-colum-2 .box img{
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+
+/* end */
+
+
+/* subscribe section related styles */
+
+.subscription-section {
+width: 1056px;
+margin: 0 auto;
+background-color: rgba(255, 0, 0, 0.05);
+border-radius: 10px;
+text-align: center;
+}
+.subscription-section img{
+  width: 112px;
+  padding-top: 80px;
+}
+.subscription-section h2{
+  font-size: 40px;
+  width: 900;
+  color: #000000;
+  padding: 40px 0 0 20px;
+}
+.subscription-section p{
+  font-size: 20px;
+  color: #07021199;
+  width: 672px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+
+.input-button{
+  padding-bottom: 70px;
+}
+.input-button input{
+  padding: 24px 200px 24px 22px;
+  border-radius: 25px 0px 0px 25px;
+  border: transparent;
+
+}
+.input-button button{
+  padding:24px 42px;
+  border-radius: 0 25px 25px 0px;
+  border: transparent;
+  font-size: 24px;
+  color:#ffffff;
+  background-color: rgba(255, 0, 0, 1);
 }
