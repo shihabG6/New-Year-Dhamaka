@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #ffffff;
-  color: red;
 }  
 
 .family-1{
@@ -130,6 +128,7 @@
   width: 229px;
 }
 .common-btn{
+  cursor: pointer;
   padding: 8px 8px;
   border-radius: 5px;
   color: #000000;
@@ -398,6 +397,7 @@ margin: 0 auto;
 background-color: rgba(255, 0, 0, 0.05);
 border-radius: 10px;
 text-align: center;
+margin-bottom: 120px;
 }
 .subscription-section img{
   width: 112px;
@@ -422,15 +422,94 @@ text-align: center;
 }
 .input-button input{
   padding: 24px 200px 24px 22px;
-  border-radius: 25px 0px 0px 25px;
+  border-radius: 25px 0 0 25px;
   border: transparent;
+  outline: none;
+  color: #000000;
+  
 
 }
 .input-button button{
+  cursor: pointer;
   padding:24px 42px;
-  border-radius: 0 25px 25px 0px;
+  border-radius:0 28px 28px 0px;
   border: transparent;
-  font-size: 24px;
+  font-size: 13px;
   color:#ffffff;
   background-color: rgba(255, 0, 0, 1);
+}
+
+/* end */
+
+
+
+footer{
+  height: 600px;
+  background-color: rgba(7, 2, 17, 1);
+}
+
+footer .address{
+  display: flex;
+  justify-content: space-between;
+  width: 1056px;
+  margin: 0 auto;
+  padding-top: 120px;
+  margin-bottom: 50px;
+
+}
+.address .home-area .paragraph{
+  font-size: 24px;
+  width: 500;
+  color: #ffffff;
+}
+.address .contact .paragraph{
+  font-size: 24px;
+  width: 500;
+  color: #ffffff;
+
+}
+
+.web-link{
+  display: flex;
+  gap: 10px;
+}
+.phone{
+  display: flex;
+  gap: 10px;
+}
+
+hr {
+  width: 90%;
+  margin: 10px auto;
+  opacity: .4;
+}
+/* end */
+
+/* social icon related style */
+.social-meida{
+  text-align: center;
+  padding: 48px 0;
+}
+.social-meida img{
+  cursor: pointer;
+  padding: 0 10px;
+}
+.copy-right-unsubscribe{
+  width: 1056px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top:98px;
+}
+.copy-right-unsubscribe .paragraph{
+  font-size: 24px;
+  width: 500;
+  color: #ffffff;
+}
+.copy-right-unsubscribe button{
+ cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
 }
