@@ -364,7 +364,12 @@
 
 .product-colum-1 .box{
   width: 338px;
+  transition: all .3s ease;
 }
+.product-colum-1 .box:hover{
+  width: 400px;
+}
+
 .product-colum-1 .box img{
   width: 100%;
 }
@@ -379,6 +384,10 @@
 
 .product-colum-2 .box{
   width: 340px;
+  transition: all .3s ease;
+}
+.product-colum-2 .box:hover{
+  width: 400px;
 }
 .product-colum-2 .box img{
   width: 100%;
