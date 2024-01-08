@@ -1,0 +1,286 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  color: red;
+}  
+
+.family-1{
+  font-family: 'Merriweather', serif;
+}
+
+.family-2{
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* header related styles */
+.header-bannar{
+  position: relative;
+  max-width: 1056px;
+  margin: auto;
+  top: 50px;
+  bottom: 50px;
+}
+.bannar-img{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+.bannar-ditels{
+  position: absolute;
+  top:245px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.bannar-title-1{
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 300;
+}
+.bannar-title-2{
+  color: #ffffff;
+  padding: 20px;
+  font-size: 60px;
+  font-weight:900;
+  line-height:70px;
+}
+
+
+
+.header-offer{
+  display: block;
+  margin-top: 110px;
+  text-align: center;
+}
+
+/* main section */
+
+
+.discount-rate{
+  color: #FF0000;
+  font-weight: 700;
+  font-size: 80px;
+  margin-bottom: 38px;
+}
+
+.header-offer p{
+  font-size: 24px;
+  color: #FF0000;
+  font-weight: 500;
+}
+.header-offer h4{
+  margin-top: 16px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+
+}
+.new-year{
+  width: 600px;
+  margin:48px 0 ;
+}
+
+
+/* welcome section related styles */
+.welcome-section{
+  position: relative;
+  max-width: 1056px;
+  margin: auto;
+  margin-bottom: 120px;
+}
+.welcome-section .background{
+  position: relative;
+  background-position: center;
+  background-size:cover;
+  border-radius: 10px;
+  width: 100%;
+  background:linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0));
+}
+
+.bannar-2{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap:53px;
+  
+}
+.bannar-text h2{
+  color: #ffffff;
+  width: 513px;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+.bannar-text p{
+  width: 522px;
+  color: #FFFFFFCC;
+  margin-bottom: 40px;
+}
+.bannar-logo img{
+  width: 229px;
+}
+.common-btn{
+  padding: 8px 8px;
+  border-radius: 5px;
+  color: #000000;
+  transition: all .2s ease;
+  border: 2px solid transparent;
+}
+.common-btn:hover{
+  background-color: #FF0B08;
+  color: #ffffff;
+
+}
+/* end */
+
+
+/* join form related styles */
+
+.join-form{
+  max-width: 1056px;
+  padding: 100px 286px 48px 286px;
+  margin: 0 auto;
+  text-align: center;
+  background:linear-gradient(rgba(255, 0, 0, 0.2),rgba(7, 2, 17, 0));
+  margin-bottom: 120px;
+}
+.join-form p{
+  font-size: 28px;
+  line-height: 45px;
+  font-family: 'Inter', sans-serif;
+  color:#000000 ;
+}
+.join-form p span{
+  color:rgba(255, 0, 0, 1) ;
+}
+.join-form .common-btn{
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 84px;
+}
+
+
+/* end */
+
+
+/* update offer related styles */
+
+.update-offer{
+  display: flex;
+  justify-content: space-;
+  align-items: center;
+  max-width: 1056px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+.update-title{
+  margin: auto;
+}
+
+.update-title h4{
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color:#FF0000;
+  margin-bottom: 12px;
+   
+}
+.update-title h2{
+
+  font-size: 48px;
+  font-weight: 900;
+  color: #000000;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 20px;
+}
+
+
+.update-title p{
+  width: 260px;
+  text-align: justify;
+  font-size: 20px;
+  color: #07021199;
+}
+
+
+
+.update-offer .img{
+  margin-left: 40px;
+  background-color: #FF0000;
+  padding: 15px;
+  border-radius: 50%;
+}
+.update-offer .img .img-2{
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 30px;
+  
+}
+
+
+
+
+
+.date-logo{
+  margin: 40px;
+}
+
+.date-logo h2{
+  font-size: 48px;
+  font-weight: 700;
+  color: #FF0000;
+  font-family: 'Inter', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  
+}
+.date-logo p{
+  text-align: justify;
+  width: 260px;
+  font-size: 20px;
+  color: #07021199;
+  text-wrap: wrap;
+}
+.date-logo img{
+  margin-top: 80px;
+}
+
+
+/* holidays related styles */
+
+.holidays-offer .text{
+  text-align: center;
+}
+.text h6{
+  font-size: 18px;
+  font-weight: 500;
+  color:#000000;
+}
+.text h2{
+  font-size: 60px;
+  color: #FF0000;
+}
+.text h2 span{
+  color: #000000;
+}
+.text p{
+  width:854px ;
+  margin:0 auto;
+  color: #07021199;
+  margin-bottom: 64px;
+}
+.discount-bannar{
+  width: 1056px;
+  margin: 0 auto;
+}
