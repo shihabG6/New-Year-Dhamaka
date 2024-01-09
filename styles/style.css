@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+                    /* primary style */
 .family-1 {
   font-family: 'Merriweather', serif;
 }
@@ -11,7 +12,7 @@
 .family-2 {
   font-family: 'Inter', sans-serif;
 }
-
+                  /* end */
 
 /* header related styles */
 .header-bannar {
@@ -24,40 +25,37 @@
 
 .bannar-img {
   position: relative;
+  width: 100%;
   background-position: center;
   background-size: cover;
-  width: 100%;
   border-radius: 10px;
 }
 
 .bannar-ditels {
   position: absolute;
-  top: 245px;
+  text-align: center;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 .bannar-title-1 {
-  color: #d6d6d6;
+  color: #ffffff;
   font-size: 28px;
   font-weight: 300;
 }
 
 .bannar-title-2 {
-  color: #d6d6d6;
+  color: #ffffff;
   padding: 20px;
   font-size: 60px;
   font-weight: 900;
   line-height: 79px;
 }
 
-
-
 .header-offer {
-  display: block;
-  margin-top: 110px;
   text-align: center;
+  margin-top: 110px;
 }
                                      /* end */
 
@@ -94,18 +92,18 @@
                                 /* welcome section related styles */
 .welcome-section {
   position: relative;
-  max-width: 1056px;
+  width: 1056px;
   margin: auto;
   margin-bottom: 120px;
 }
 
 .welcome-section .background {
+  background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0));
+  width: 100%;
   position: relative;
   background-position: center;
   background-size: cover;
   border-radius: 10px;
-  width: 100%;
-  background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0));
 }
 
 .bannar-2 {
@@ -130,8 +128,8 @@
 }
 
 .bannar-text p {
-  width: 522px;
   color: #FFFFFFCC;
+  width: 522px;
   margin-bottom: 40px;
 }
 
@@ -140,18 +138,17 @@
 }
 
 .common-btn {
-  cursor: pointer;
+  color: #000000;
   padding: 8px 8px;
   border-radius: 5px;
-  color: #000000;
   transition: all .2s ease;
   border: 2px solid transparent;
+  cursor: pointer;
 }
 
 .common-btn:hover {
   background-color: #FF0B08;
   color: #ffffff;
-
 }
 
                                           /* end */
@@ -160,19 +157,18 @@
                               /* join form related styles */
 
 .join-form {
-  max-width: 1056px;
+  background: linear-gradient(rgba(255, 0, 0, 0.2), rgba(7, 2, 17, 0));
+  width: 1056px;
+  text-align: center;
   padding: 100px 286px 48px 286px;
   margin: 0 auto;
-  text-align: center;
-  background: linear-gradient(rgba(255, 0, 0, 0.2), rgba(7, 2, 17, 0));
   margin-bottom: 120px;
 }
 
 .join-form p {
+  color: #000000;
   font-size: 28px;
   line-height: 45px;
-  font-family: 'Inter', sans-serif;
-  color: #000000;
 }
 
 .join-form p span {
@@ -180,9 +176,8 @@
 }
 
 .join-form .common-btn {
-  margin-top: 20px;
   font-size: 20px;
-  font-family: 'Inter', sans-serif;
+  margin-top: 20px;
   margin-bottom: 84px;
 }
 
@@ -193,9 +188,9 @@
 
 .update-offer {
   display: flex;
-  justify-content: space-;
+  justify-content: space-between;
   align-items: center;
-  max-width: 1056px;
+  width: 1056px;
   margin: 0 auto;
   margin-bottom: 120px;
 }
@@ -205,44 +200,41 @@
 }
 
 .update-title h4 {
-  font-size: 20px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
   color: #FF0000;
+  font-size: 20px;
+  font-weight: 400;
   margin-bottom: 12px;
 
 }
 
 .update-title h2 {
-
+  color: #000000;
   font-size: 48px;
   font-weight: 900;
-  color: #000000;
-  font-family: 'Merriweather', serif;
   margin-bottom: 20px;
 }
 
 
 .update-title p {
-  width: 260px;
-  text-align: justify;
-  font-size: 20px;
   color: #07021199;
+  width: 260px;
+  font-size: 20px;
+  text-align: justify;
 }
 
 
 
 .update-offer .img {
-  margin-left: 40px;
   background-color: #FF0000;
   padding: 15px;
+  margin-left: 40px;
   border-radius: 50%;
 }
 
 .update-offer .img .img-2 {
   background-color: #ffffff;
-  border-radius: 50%;
   padding: 30px;
+  border-radius: 50%;
 
 }
 
@@ -251,21 +243,19 @@
 }
 
 .date-logo h2 {
+  color: #FF0000;
   font-size: 48px;
   font-weight: 700;
-  color: #FF0000;
-  font-family: 'Inter', sans-serif;
   margin-top: 10px;
   margin-bottom: 16px;
 
 }
 
 .date-logo p {
-  text-align: justify;
+  color: #07021199;
   width: 260px;
   font-size: 20px;
-  color: #07021199;
-  text-wrap: wrap;
+  text-align: justify;
 }
 
 .date-logo img {
@@ -285,14 +275,14 @@
 }
 
 .text h6 {
+  color: #000000;
   font-size: 18px;
   font-weight: 500;
-  color: #000000;
 }
 
 .text h2 {
-  font-size: 60px;
   color: #FF0000;
+  font-size: 60px;
 }
 
 .text h2 span {
@@ -300,9 +290,9 @@
 }
 
 .text p {
+  color: #07021199;
   width: 854px;
   margin: 0 auto;
-  color: #07021199;
   margin-bottom: 64px;
 }
 
@@ -315,9 +305,7 @@
 
 .discount-bannar .box {
   width: 597px;
-  position: absolute;
   z-index: 100;
-  padding-top: 300px;
 }
 
 .box-logo-pic {
@@ -516,6 +504,7 @@ footer .address {
 .phone {
   display: flex;
   gap: 10px;
+  width: 1056px;
 }
 
 hr {
