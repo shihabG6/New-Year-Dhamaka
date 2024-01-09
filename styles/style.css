@@ -44,6 +44,7 @@
   color: #ffffff;
   font-size: 28px;
   font-weight: 300;
+  z-index: 10;
 }
 
 .bannar-title-2 {
@@ -52,6 +53,7 @@
   font-size: 60px;
   font-weight: 900;
   line-height: 79px;
+  z-index: 100;
 }
 
 .header-offer {
@@ -287,6 +289,7 @@
 .text h2 {
   color: #FF0000;
   font-size: 60px;
+  margin:20px 0;
 }
 
 .text h2 span {
@@ -382,12 +385,14 @@
 
 .product-colum-1 .box {
   width: 338px;
-  transition: all .3s ease;
+  transition: all .4s ease;
   cursor: pointer;
+  opacity: .6;
 }
 
 .product-colum-1 .box:hover {
   width: 400px;
+  opacity:1;
 }
 
 .product-colum-1 .box img {
@@ -405,12 +410,14 @@
 
 .product-colum-2 .box {
   width: 340px;
-  transition: all .3s ease;
+  transition: all .4s ease;
+  opacity: .6;
   cursor: pointer;
 }
 
 .product-colum-2 .box:hover {
   width: 400px;
+  opacity: 1;
 }
 
 .product-colum-2 .box img {
@@ -560,4 +567,5 @@ hr {
   outline: none;
   border: none;
   font-size: 20px;
+  color: #ffffff;
 }
