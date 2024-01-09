@@ -456,7 +456,8 @@
   color: #07021199;
   width: 672px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  margin-top: 20px;
+  padding-bottom:20px;
 }
 
 .input-button {
