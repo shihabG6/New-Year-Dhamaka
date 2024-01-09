@@ -18,10 +18,15 @@
 /* header related styles */
 .header-bannar {
   position: relative;
-  max-width: 1056px;
+  background-image: url("/Images/Banner\ Image.png");
+  background-size: cover;
+  background-position: center;
+  width: 1056px;
+  height: 600px;
   margin: auto;
   top: 50px;
   bottom: 50px;
+  border-radius: 10px;
 }
 
 .bannar-img {
@@ -29,6 +34,14 @@
   width: 100%;
   background-position: center;
   background-size: cover;
+  border-radius: 10px;
+}
+.liner-color{
+  width:100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgb(11, 11, 11), rgba(222, 221, 224, 0));
+  position: absolute;
+  opacity: .6;
   border-radius: 10px;
 }
 
@@ -44,7 +57,7 @@
   color: #ffffff;
   font-size: 28px;
   font-weight: 300;
-  z-index: 10;
+  word-spacing: 20px;
 }
 
 .bannar-title-2 {
@@ -53,17 +66,19 @@
   font-size: 60px;
   font-weight: 900;
   line-height: 79px;
-  z-index: 100;
+  word-spacing: 10px;
 }
+
+
+
+/* end */
+
+/* main section */
 
 .header-offer {
   text-align: center;
   margin-top: 110px;
 }
-
-/* end */
-
-/* main section */
 
 
 .discount-rate {
