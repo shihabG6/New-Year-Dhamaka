@@ -377,27 +377,17 @@
   margin-bottom: 42px;
 }
 
-
-.coproduct-colum-1 {
-  width: 1056px;
-  height: 450px;
-  border: 2px solid;
-}
-
-
 .product-colum-1 {
-  margin: 0 auto;
-  width: 1056px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 12px;
+  width: 1056px;height: 417px;
+  margin: 0 auto;
 }
 
 .product-colum-1 .box {
   width: 338px;
   transition: all .3s ease;
 }
-
 .product-colum-1 .box:hover {
   width: 400px;
 }
@@ -407,25 +397,24 @@
 }
 
 .product-colum-2 {
-  bottom: 100px;
-  margin: 0 auto;
-  width: 1056px;
   display: flex;
   justify-content: space-between;
+  width: 1056px;
+  height: 417px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
-.product-colum-2 .box {
+.product-colum-2 .box  {
   width: 340px;
   transition: all .3s ease;
 }
-
 .product-colum-2 .box:hover {
   width: 400px;
 }
 
 .product-colum-2 .box img {
   width: 100%;
-  margin-bottom: 120px;
 }
 
 
