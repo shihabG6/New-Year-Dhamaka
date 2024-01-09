@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #ffffff;
 }
 
 /* primary style */
@@ -299,6 +298,7 @@
   width: 854px;
   margin: 0 auto;
   margin-bottom: 64px;
+  text-align: justify;
 }
 
 .discount-bannar {
@@ -366,9 +366,10 @@
 }
 
 .product p {
-  font-size: 20px;
   color: #07021199;
+  font-size: 20px;
   margin-bottom: 42px;
+  text-align:justify;
 }
 
 .product-colum-1 {
@@ -382,6 +383,7 @@
 .product-colum-1 .box {
   width: 338px;
   transition: all .3s ease;
+  cursor: pointer;
 }
 
 .product-colum-1 .box:hover {
@@ -404,6 +406,7 @@
 .product-colum-2 .box {
   width: 340px;
   transition: all .3s ease;
+  cursor: pointer;
 }
 
 .product-colum-2 .box:hover {
@@ -451,6 +454,7 @@
 
 .input-button {
   padding-bottom: 70px;
+
 }
 
 .input-button input {
@@ -459,7 +463,6 @@
   border: transparent;
   outline: none;
   color: #000000;
-
 
 }
 
@@ -489,7 +492,7 @@ footer .address {
   justify-content: space-between;
   width: 1056px;
   margin: 0 auto;
-  margin-bottom:60px;
+  margin-bottom: 60px;
   padding-top: 50px;
 }
 
@@ -510,13 +513,14 @@ hr {
   opacity: .4;
 }
 
-.home-area .paragraph{
+.home-area .paragraph {
   color: #ffffff;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
 }
-.contact-item .paragraph{
+
+.contact-item .paragraph {
   color: #ffffff;
   font-size: 20px;
   font-weight: 500;
@@ -532,7 +536,8 @@ hr {
 
 .social-meida img {
   cursor: pointer;
-  padding: 0 10px;
+  margin: 0 14px;
+  
 }
 
 .copy-right-unsubscribe {
